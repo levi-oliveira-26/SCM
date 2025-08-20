@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homenagem ao Professor Cláudio</title>
+    <title>Homenagem aos Professores Cláudio e Silvestrim</title>
     <style>
         body {
             background: #f3f3f3;
@@ -35,9 +35,17 @@
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             margin-top: 30px;
-            max-width: 700px;
+            max-width: 800px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        .photo-group {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
         }
 
         .photo {
@@ -45,10 +53,16 @@
             height: 200px;
             background-color: #ddd;
             border-radius: 50%;
-            margin: 20px auto;
-            background-image: url("fotoClaudio.jfif");
             background-size: cover;
             background-position: center;
+        }
+
+        .claudio {
+            background-image: url("fotoClaudio.jfif");
+        }
+
+        .silvestrim {
+            background-image: url("fotoRui.jfif");
         }
 
         .quote {
@@ -71,21 +85,27 @@
 </head>
 <body>
     <header>
-        <h1>Professor Cláudio</h1>
-        <div class="subtitle">O negão mais amado da FATEC Rubens Lara ❤️</div>
+        <h1>Professores Cláudio e Silvestrim</h1>
+        <div class="subtitle">Duas lendas vivas da FATEC Rubens Lara ❤️</div>
     </header>
 
     <div class="container">
-        <div class="photo"></div>
-        <p>Esta é uma singela homenagem ao mestre, ao ícone, ao mito: <span class="highlight">Professor Cláudio</span>.</p>
+        <div class="photo-group">
+            <div class="photo claudio"></div>
+            <div class="photo silvestrim"></div>
+        </div>
 
-        <p>Um homem, uma máquina, uma besta enjaulada. Dedo torto mas papo reto.</p>
+        <p>Esta é uma singela homenagem aos mestres, ícones, e mitos: <span class="highlight">Professores Cláudio e Rui</span>.</p>
 
-        <p>Ele não apenas ensina, ele inspira. Não apenas explica, ele transforma.</p>
+        <p>Dois homens, duas mentes brilhantes, unidos pela paixão de ensinar e pelo amor à zoeira com qualidade.</p>
 
-        <p class="quote">Que nos seus sonhos mais loucos, Silvestrim apareça para te abraçar de sunga</p>
+        <p><strong>Cláudio</strong>: uma máquina, uma lenda, dedo torto mas papo reto. Inspira com sua postura e transforma com sua didática.</p>
 
-        <p>Obrigado, Cláudio, por ser esse exemplo dentro e fora da sala de aula. Você é, sem dúvida, <span class="highlight">o negão mais amado da FATEC</span>.</p>
+        <p><strong>Rui</strong>: o homem da lógica afiada e das tiradas geniais. Sempre pronto para um desafio – ou uma boa piada.</p>
+
+        <p class="quote">"Nos seus sonhos mais loucos, Rui aparece para te abraçar de sunga" – dedicado ao eterno negão mais amado da FATEC.</p>
+
+        <p>Obrigado, mestres, por serem mais que professores: verdadeiros exemplos dentro e fora da sala de aula. Vocês são <span class="highlight">o orgulho da FATEC Rubens Lara</span>.</p>
     </div>
 
     <footer>
